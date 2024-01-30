@@ -36,7 +36,7 @@ export const useGetTransactions = () => {
         snapshot.forEach((doc) => {
           const data = doc.data();
           const id = doc.id;
-          docs.push({ ...data, id });
+          docs.unshift({ ...data, id });
 
           if (data.transactionType === "expense") {
             totalExpenses += Number(data.transactionAmount);

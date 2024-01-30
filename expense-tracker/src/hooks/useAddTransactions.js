@@ -7,12 +7,14 @@ export const useAddTransactions = () => {
   const addTransactions = async ({
     description,
     transactionAmount,
+    transactionClass,
     transactionType,
   }) => {
     await addDoc(transactionCollectionRef, {
       userID,
       description,
       transactionAmount,
+      transactionClass,
       transactionType,
       createdAt: serverTimestamp(),
     });
