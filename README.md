@@ -1,0 +1,2 @@
+#Expense-Tracker
+Through logging into their Google account, users can create their own expense tracker. By tracking the daily expenses amount and type, Expense-Tracker can clearly display the proportion and changes of expenses through pie charts and line graphs. Additionally, Expense-Tracker utilizes the ChatGPT API to allow users to ask questions about their expenses, enabling them to optimize their spending for the next month based on advice.
