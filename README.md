@@ -1,5 +1,5 @@
 # Expense-Tracker-Website
-expense-tracker-a6f87.firebaseapp.com
+https://expense-tracker-a6f87.web.app/
 # Introduction
 Through logging into their Google account, users can create their own Expense-Tracker. By tracking the daily expenses amount and type, Expense-Tracker can clearly display the proportion and changes of expenses through pie charts and line graphs. Additionally, Expense-Tracker utilizes the ChatGPT API to allow users to ask questions about their expenses, enabling them to optimize their spending for the next month based on advice.
 # Features
